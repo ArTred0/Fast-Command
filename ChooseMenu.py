@@ -5,8 +5,8 @@ import ctypes
 from math import ceil
 import json
 from os import startfile
-import re
-import os
+# import re
+# import os
 from keyboard import hook_key
 
 from controlable_widgets_grid import WidgetsGrid
@@ -54,14 +54,14 @@ def execute(title: str,
             wd: str):
 
     print(f'{command=}\n{wd=}')
-    # try:
-    if not wd:
-        Popen(command, creationflags=DETACHED_PROCESS)
-    else:
-        Popen(command, cwd=wd, creationflags=DETACHED_PROCESS)
-        # stop()
-    # except Exception as exc:
-    #     showerror(str(exc), f'Error occurred while executing shortcut "{title}". Сheck that its command spelled correctly and try again.')
+    try:
+        if not wd:
+            Popen(command.split(), creationflags=DETACHED_PROCESS)
+        else:
+            Popen(command.split(), cwd=wd, creationflags=DETACHED_PROCESS)
+        root.destroy()
+    except Exception as exc:
+        showerror(str(exc), f'Error occurred while executing shortcut "{title}". Сheck that its command spelled correctly and try again.')
 
 
 set_to_foreground = ctypes.windll.user32.SetForegroundWindow
