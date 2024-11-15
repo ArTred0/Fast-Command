@@ -1,45 +1,7 @@
 {
     "choices": [
-        {
-            "title": "Notebook",
-            "command": "python C:/Users/A_K_G/PycharmProjects/NoteBook/main.py",
-            "wd": "C:/Users/A_K_G/PycharmProjects/NoteBook"
-        },
-        {
-            "title": "Sqr equations",
-            "command": "python C:/Users/A_K_G/PycharmProjects/advanced_calculator/sqrCTk.py",
-            "wd": "C:/Users/A_K_G/PycharmProjects/advanced_calculator"
-        },
-        {
-            "title": "Lesson Notifier",
-            "command": "C:/Users/A_K_G/PycharmProjects/LessonNotifier/dist/LessonNotifier/LessonNotifier.exe",
-            "wd": "C:/Users/A_K_G/PycharmProjects/LessonNotifier/dist/LessonNotifier"
-        },
-        {
-            "title": "A8 OG Music",
-            "command": "python C:/Users/A_K_G/PycharmProjects/Asphalt8OldMusicPlayer/main.py",
-            "wd": "C:/Users/A_K_G/PycharmProjects/Asphalt8OldMusicPlayer"
-        },
-        {
-            "title": "Color chooser",
-            "command": "python C:/Users/A_K_G/PycharmProjects/tests/ColorChooserCTk.py",
-            "wd": "C:/Users/A_K_G/PycharmProjects/tests"
-        },
-        {
-            "title": "Edge \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439",
-            "command": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe\" --profile-directory=\"Default\"",
-            "wd": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application"
-        },
-        {
-            "title": "IDLE Python",
-            "command": "C:\\Users\\A_K_G\\AppData\\Local\\Programs\\Python\\Python311\\pythonw.exe \"C:\\Users\\A_K_G\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\idlelib\\idle.pyw\"",
-            "wd": "C:\\Users\\A_K_G\\AppData\\Local\\Programs\\Python\\Python311"
-        },
-        {
-            "title": "Server Runner",
-            "command": "C:\\Users\\A_K_G\\VSProjects\\serverRunnerGUI\\venv\\Scripts\\pythonw.exe C:\\Users\\A_K_G\\VSProjects\\serverRunnerGUI\\main.py",
-            "wd": "C:\\Users\\A_K_G\\VSProjects\\serverRunnerGUI"
-        }
+        "title": "Welcome",
+        "command": "python"
     ],
     "hotkey": "ctrl+shift+alt+u"
 }
